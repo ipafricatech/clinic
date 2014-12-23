@@ -5,9 +5,10 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
+#gem 'mysql2'
 gem 'simple_form'
 gem 'haml-rails'
+gem 'pg'
 
 
 # Gems used only for assets and not required
@@ -20,6 +21,7 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+  gem 'mysql2'
 end
 
 gem 'jquery-rails'
